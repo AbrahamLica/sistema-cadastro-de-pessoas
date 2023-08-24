@@ -1,0 +1,136 @@
+.containerGeral {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerBtnReset {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+.containerBtnReset img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.tableLight {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+  width: 100%;
+}
+
+.tableDark {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 20px;
+  width: 100%;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+.rowLight {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.rowDark {
+  border: 1px solid white;
+  width: 100%;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.tHeaderLight {
+  text-align: left;
+  padding: 10px;
+  color: black;
+}
+
+.tHeaderDark {
+  text-align: left;
+  padding: 10px;
+  color: white;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.tDataLight {
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+}
+
+.tDataDark {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.containerButtons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.btnEditarLight {
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 6px black;
+  margin: 10px;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: white;
+  text-align: right;
+  cursor: pointer;
+  background-color: #f71735;
+}
+
+.btnEditarDark {
+  border-radius: 5px;
+  border: 1px solid white;
+  margin: 10px;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: white;
+  text-align: right;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.btnExcluirLight {
+  border: 1px solid black;
+  box-shadow: 3px 3px 6px black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: white;
+  text-align: right;
+  cursor: pointer;
+  background-color: #f71735;
+}
+
+.btnExcluirDark {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: white;
+  text-align: right;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media (max-width: 540px) {
+  .containerGeral {
+    overflow-x: auto;
+  }
+}
