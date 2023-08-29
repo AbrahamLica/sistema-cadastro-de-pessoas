@@ -200,14 +200,15 @@
   margin-right: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
+  justify-content: space-between;
+  align-items: center;  
+  /* background-color: red; */
+  height: 200px;
 }
 
 .containerSocialMedias img {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
   transition: 0.3s;
   cursor: pointer;
 }
@@ -220,15 +221,19 @@
 @media (max-width: 425px) {
   .mainContainerLight {
     flex-direction: column;
+    padding-top: 0;
   }
 
   .mainContainerDark {
     flex-direction: column;
+    padding-top: 0;
   }
 
   .containerSocialMedias {
     flex-direction: row;
     margin: 0;
+    height: auto;
+    padding: 10px;
   }
 
   .containerSocialMedias img {

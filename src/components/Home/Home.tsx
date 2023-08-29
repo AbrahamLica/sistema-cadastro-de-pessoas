@@ -8,6 +8,7 @@ import Clients from "../Clients/Clients";
 import avatar from "../../img/avatar2.png";
 import linkedin from "../../img/linkedin2.png";
 import github from "../../img/github.png";
+import github2 from "../../img/githubWhite.png";
 
 const Home = () => {
   const { state, dispatch } = useContext(Context);
@@ -103,7 +104,12 @@ const Home = () => {
           <img src={linkedin} alt="" width={45} />
         </a>
         <a href="https://github.com/AbrahamLica" target="_blank">
-          <img src={github} alt="" width={50} />
+          <img
+            src={state.modal.themeLight ? github : github2}
+            alt=""
+            width={50}
+            style={{marginTop: state.modal.themeLight ? '0' : '5px'}}
+          />
         </a>
       </div>
     </div>
