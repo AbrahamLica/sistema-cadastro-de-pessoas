@@ -202,13 +202,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;  
-  /* background-color: red; */
   height: 200px;
 }
 
 .containerSocialMedias img {
-  /* margin-top: 10px; */
-  /* margin-bottom: 10px; */
   transition: 0.3s;
   cursor: pointer;
 }
